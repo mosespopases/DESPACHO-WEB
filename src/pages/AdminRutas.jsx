@@ -30,7 +30,7 @@ import {
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import { supabase } from "../supabase/supabaseclient";
+import { supabase } from "../supabase/supabaseClient";
 
 // Fix iconos Leaflet
 delete L.Icon.Default.prototype._getIconUrl;
